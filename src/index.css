@@ -11,3 +11,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+*{
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;  
+  
+}
+body::-webkit-scrollbar{
+  display: none;
+}   
+
+.fontcss
+{
+  font-family: 'Ubuntu';
+  user-select: none;
+}
+
+.PrevNex:hover
+{
+  color: rgb(55, 248, 55);
+  cursor: pointer;
+}

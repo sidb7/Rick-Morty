@@ -1,0 +1,18 @@
+
+#search
+{
+    border: none;
+    outline: none;
+    width: 95%;
+    height: 2rem;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: 20px;
+
+   
+}
+
+.NavButtons:hover
+{
+    border: 1px solid black;
+}
