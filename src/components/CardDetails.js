@@ -29,7 +29,7 @@ export default function CardDetails() {
   return (
     <div className='w-100 mt-5 d-flex justify-content-center mb-5 ' >
       
-        <div className="card w-50 ">
+        <div className="card w-100 ">
   <div className="card-header">
     <div className='w-100 fs-1 fontcss text-secondary fw-semibold bg-secondary-subtle text-center'>{name}</div>
   </div>
