@@ -9,7 +9,7 @@ import '../Styles/NavBar.css'
 
 
 export default function NavFilter({setReset,reset ,setStatus,setGender,setSpecies}) {
-  const [show1 ,setShow] = useState(0)
+
   const show = ()=>
   {
         

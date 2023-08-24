@@ -60,18 +60,18 @@ export default function Home() {
         {/* <h1 className='fontcss my-4 text-center fw-bold w-100 '  ><span className='text-success'>RICK</span> & <span className='text-success'>Morty </span> </h1> */}
         <div className='w-100 d-flex justify-content-center'><Search setSearch={setSearch} setPageNumber={setPageNumber}/></div>
         
-        <div className='w-25 mb-5  d-flex justify-content-end position-absolute end-0'> <NavFilter reset={reset} setReset={setReset} setStatus={setStatus} setSpecies={setSpecies} setGender={setGender} /></div>
+        <div className='w-25 mb-5  d-flex position-absolute start-0'> <NavFilter reset={reset} setReset={setReset} setStatus={setStatus} setSpecies={setSpecies} setGender={setGender} /></div>
 
  <div className='container  m-auto   ' >
     <div className='row m-auto'>
-       
-            <div className='col-10'>
+        <div className='col-lg-2 col-md-4 col-sm-4 '><Filter reset={reset} setPageNumber={setPageNumber} setStatus={setStatus} setGender={setGender} setSpecies={setSpecies} /></div>
+            <div className='col-lg-10 col-md-8 col-sm-6 '>
                 
             <div className="row">
              <Cards results ={results} setPageNumber={setPageNumber} /></div>
              </div>
 
-        <div className='col-2'><Filter reset={reset} setPageNumber={setPageNumber} setStatus={setStatus} setGender={setGender} setSpecies={setSpecies} /></div>
+       
     </div>
     </div>
 
