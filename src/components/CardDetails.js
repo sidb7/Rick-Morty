@@ -36,7 +36,7 @@ export default function CardDetails() {
   <div className="card-body">
     <blockquote className="blockquote mb-0">
     <div className={`${styles.image}`}><img  src={image} className="img-fluid " alt="..."/></div>
-      <div style={{borderRadius:"10px"}} className={`fs-4 text-light fontcss bg-${(status=="Alive")?`success`:(status=="Dead")?`Danger`:`secondary`} text-center mt-1`}>{status}</div>
+      <div style={{borderRadius:"10px"}} className={`fs-4 text-light fontcss bg-${(status=="Alive")?`success`:(status=="Dead")?`danger`:`secondary`} text-center mt-1`}>{status}</div>
       <div className='w-100'> 
       
       <div className='fs-4 m-4 mb-0 fw-semibold fontcss'>Gender: <span className='fw-light'>{gender}</span> </div>
