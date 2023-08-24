@@ -36,7 +36,8 @@ export default function Cards({results,setPageNumber}) {
             )
 
         })
-        :setPageNumber(1)
+        :   <div> {setPageNumber(1)} <h1>Results not Found</h1></div>
+       
 
         }
     
