@@ -64,7 +64,7 @@ export default function Home() {
 
  <div className='container  m-auto   ' >
     <div className='row m-auto'>
-        <div className='col-lg-2 col-md-4 col-sm-4 '><Filter reset={reset} setPageNumber={setPageNumber} setStatus={setStatus} setGender={setGender} setSpecies={setSpecies} /></div>
+        <div className='col-lg-2 col-md-4 col-sm-4 '><Filter reset={reset} setReset={setReset} setPageNumber={setPageNumber} setStatus={setStatus} setGender={setGender} setSpecies={setSpecies} /></div>
             <div className='col-lg-10 col-md-8 col-sm-6 '>
                 
             <div className="row">
