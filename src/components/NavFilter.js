@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import styles from '../Styles/Filter.module.scss'
-import {HiOutlineFilter} from 'react-icons/hi'
+import {LuFilter,LuFilterX} from 'react-icons/lu'
+
 import '../Styles/NavBar.css'
 
 
@@ -38,7 +39,7 @@ export default function NavFilter({setReset,reset ,setStatus,setGender,setSpecie
        
 
         <div onClick={show}   className={`${styles.FilterIcon}`} >
-        <HiOutlineFilter size={40}/>
+       {(reset===1)?<LuFilterX size={40}/>: <LuFilter size={40}/>}
         </div>
           
         
