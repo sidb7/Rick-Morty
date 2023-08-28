@@ -18,7 +18,7 @@ export default function Status({setStatus,setPageNumber,reset}) {
             status.map((items,index)=>
             {
                 return(
-                    <div ><FilterButtons reset={reset} key={index} items={items} index={index}  setValue={setValue} /></div>
+                    <div ><FilterButtons reset={reset} key={index} items={items} index={index} value={value} setValue={setValue} /></div>
                 )
             }
             )

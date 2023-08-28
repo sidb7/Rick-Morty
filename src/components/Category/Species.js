@@ -31,7 +31,7 @@ export default function Species({setSpecies,setPageNumber}) {
             species.map((items,index)=>
             {
                 return(
-                    <div ><FilterButtons key={index} items={items} index={index} setValue={setValue}/></div>
+                    <div ><FilterButtons key={index} items={items} index={index} value={value} setValue={setValue}/></div>
                 )
             }
             )

@@ -20,7 +20,7 @@ export default function Gender({setGender,setPageNumber}) {
             gender.map((items,index)=>
             {
                 return(
-                    <div ><FilterButtons key={index} items={items} index={index} setValue={setValue} /></div>
+                    <div ><FilterButtons key={index} items={items} index={index} value={value} setValue={setValue} /></div>
                 )
             }
             )

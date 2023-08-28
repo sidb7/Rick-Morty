@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function FilterButtons({items,index,setValue,reset}) {
-  
+export default function FilterButtons({items,index,setValue,value}) {
+ 
   return (
     <div  className='d-flex justify-content-between mb-4 '>
       
       <div class="form-check">
-  <input onChange={e=>setValue(e.target.value)} style={{cursor:"pointer",border:"2px solid gray"}} className="form-check-input" type="checkbox" value={items} id="defaultCheck1"/>
+  <input onChange={e=>(value==="")?setValue(e.target.value):setValue("")} data-toggle="toggle"   style={{cursor:"pointer",border:"2px solid gray"}} className="form-check-input" type="checkbox" value={items} id="defaultCheck1"/>
   <label className="form-check-label" for="defaultCheck1">
     {items}
   </label>
